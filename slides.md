@@ -12,24 +12,26 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Open Source Software Meetup
+  Presentation slides of the [Open Source Software on meetup.com](https://www.meetup.com/nl-NL/flock-meetups/events/283359253/) held on 28/01/2022.
 
-  Learn more at [Sli.dev](https://sli.dev)
+  "Open-source communities make it possible to learn not only from your own mistakes, but also from those made by others."
+
+  Have you ever heard about open-source and wondered what it was? Or are you curious about the benefits it can bring to you as a developer and to your organisation?
+  In this meetup ING's Frank Wijmans and Flock.'s Tobias Kuppens-Groot and Goffert van Gool will explain what open-source is, what it entails, how you can contribute (in the context of software) and whether you should.
+
+  And if you want to read Tobias' blog about open-source, [you can find it here](https://www.linkedin.com/pulse/open-source-flockcommunity-1c/)
+
+And if you want to read Tobias' blog about open-source, you can find it here:
 # persist drawings in exports and build
 drawings:
   persist: false
 ---
 
-# Welcome to Slidev
+# Open-Source
 
-Presentation slides for developers
+What is it?
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
@@ -41,343 +43,373 @@ Presentation slides for developers
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
+layout: full
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# Code
+# Introduction
 
-Use code snippets and get the highlighting directly![^1]
+Contributors
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+- Frank Wijmans
+- Goffert van Gool
+- Tobias Kuppens Groot
 
 ---
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-
+layout: two-cols
 ---
-class: px-20
----
+# Introduction
 
-# Themes
+Outline
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+- The meaning of open-source
+- Open-source at your workplace
+- How the open-source software eco-system works
+  - Git
+  - Collaboration
+  - Access Control
+  - Pull Requests
+  - Forks
+  - Licensees
+  - Issues
+  - Workflow
+    - Common forking workflow
 
-<div grid="~ cols-2 gap-2" m="-t-2">
+::right::
 
-```yaml
----
-theme: default
----
-```
+<div class="mt-21">
 
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-preload: false
----
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
+- How does open-source contributions look?
+- But is it something for you?
+- The good, the bad, the ugly and the noteworthy
 
 </div>
 
 ---
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
+layout: intro
 ---
 
-# Diagrams
+# The meaning of open-source
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+---
+layout: image-left
+image: https://source.unsplash.com/collection/94734566/1920x1080
+---
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
+# What can be open-source?
 
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+the sky is the limit
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+<v-clicks>
 
-```plantuml {scale: 0.7}
-@startuml
+- open-source is a concept
+- can be applied to everything
+- not limited to software
 
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
+However, we will focus on open-source software.
 
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
+</v-clicks>
 
-cloud {
-  [Example 1]
-}
+<!--
+Technically speaking there isn't any limitation what can or cannot be open source. It is a concept that can be applied to everything. However, we focus on contributing to open-source software. But before we do that, let's have a look at closer look on what open-source means and how it
+-->
 
+---
+layout: full
+---
 
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
+<div class="flex flex-row py-14">
+<div class="w-1/2">
 
+# What is open-source?
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
+- it's published on a public space
+- enabled cooperation
+- easily extendable and redistributable
 
 </div>
+<div class="w-1/2">
 
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+# Common fallacy's
+
+- no control over your work
+- open-source doesn't mean it's free
+- it's not unsafe to use open-source
+
+</div>
+</div>
+
+---
+layout: full
+---
+
+# Open-source at your workplace
+
+enable developers to work on open-source software
+
+giving developers time during workings hours to contribute to open-source benefits all
+
+- every tech company uses open-source software
+- technological exchange
+- improved skills
+- problem solving outside the tech stack
+- apply inner-sourcing within the company
+
+---
+src: slides/git-eco-system.md
+---
+
+---
+src: slides/ruphin-slides-open-source-workshop/00-cover-deck-git.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/01.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/02.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/03.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/04.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/05.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/06.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/07.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/08-cover-deck-collaboration.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/09.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/10-cover-deck-access-control.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/11.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/12-cover-deck-pull-requests.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/13.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/14-cover-deck-forks.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/15.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/16.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/17.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/18.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/19.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/20.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/21-cover-deck-licenses.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/22.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/23-cover-deck-issues.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/24.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/25-cover-deck-workflow.md
+---
+---
+src: slides/ruphin-slides-open-source-workshop/26.md
+---
+
+---
+src: slides/git-common-workflow.md
+---
 
 
 ---
-layout: center
-class: text-center
+layout: full
 ---
 
-# Learn More
+# Experience with open-source
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+This is all very nice and really abstract, but how does it actually look?
+
+<v-click>
+
+- [todo mvc](https://github.com/tastejs/todomvc/issues/2100)
+- [gitea improvement](https://github.com/go-gitea/gitea/issues/13600)
+- [open-wc codelabs](https://github.com/open-wc/open-wc/pull/1344)
+- [typo fix](https://github.com/slidevjs/docs/pull/48)
+- [add DX feature](https://github.com/floodlight-sports/floodlight/pull/19)
+
+</v-click>
+
+<!--
+To get more inside in how open-source contributions can differ, we gathered a couple of examples.
+-->
+
+---
+layout: full
+---
+
+# But is it something for you?
+
+The most important question of them all
+
+<div class="flex flex-row">
+<div class="w-1/2">
+
+- you stumble across a problem
+- you **want to** fix it, because
+  - you are annoyed
+  - you need to fix it to continue your work
+  - you like fixing things
+  - you are excited about the project
+  - you think it can look good on your CV
+
+
+</div>
+<div class="w-1/2">
+
+- you stumble across a problem
+- you **don't** want to fix it, because
+  - somebody else will do it
+  - it's not that big of a deal
+  - you just don't care that much
+  - it doesn't block your current work
+  - you just don't use it
+    - not updating to the latest version of the package
+    - change the framework
+    - build a workaround
+
+</div>
+</div>
+
+---
+layout: intro
+---
+
+# The good, the bad, the ugly and the noteworthy
+
+Where there is light, there must be shadow.
+
+<!--
+The world of open-source is cool and exciting.
+Where there is is light, there must be shadow.
+
+There is something to say about what is really good about the eco-system of open-source software. The benefits are numerous.
+
+The same holds true for the bad.
+
+And occasionally the ugly arises
+
+We created a collection of noteworthy open-source
+-->
+
+---
+layout: full
+---
+
+# The good
+
+learning and experience
+
+- knowledge sharing
+- learning from open source repositories
+- helping and improving other projects with your expertise
+- broaden the perspective
+- satisfying to do
+- get inspired
+- use [code-review clubs](https://media.ccc.de/v/rc3-2021-cwtv-228-lets-review-code-toget#t=0) to reduce complexity
+
+<!--
+-->
+
+---
+layout: full
+---
+
+# The bad
+
+difficult and time consuming
+
+- very time consuming
+- slow
+- requires persistence
+- steep learning curve
+- chat-like discussions are difficult
+- good first issues requires a lot of knowledge
+
+---
+layout: image-right
+image: images/dependency_2x.png
+---
+
+# The ugly
+
+Welcome to the dark side of open-source software
+
+- low payment for contributors
+- log4j
+- color.js, faker.js
+
+<!--
+open source software is vulnerable to capitalistic exploits
+
+-->
+
+---
+layout: full
+---
+
+# The noteworthy
+
+This is good to know
+
+- [nlNet foundation](https://nlnet.nl/)
+  - financially supporting organizations and people that contribute to an open information society
+- [Bug bounty program 2022](https://ec.europa.eu/info/news/european-commissions-open-source-programme-office-starts-bug-bounties-2022-jan-19_en) of the [European Commission Open-Source Software strategy](https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en)
+  - an amount of EUR 200,000 was funded by the European Commission Open Source Programme Office (EC OSPO) to focus again on the security of open source software widely used by public services.
+- [EU open source policy summit 2022](https://summit.openforumeurope.org/)
+  - February 4
+  - Open Source & the Grand Challenges
+- [FOSDEM 22](https://fosdem.org/2022/)
+  - 5 & 6 February 2022
+  - Every year, thousands of developers of free and open source software from all over the world gather at the event
+
+<!--
+The European Commission released a bug bounty program featuring various open-source projects which are frequently used within the EU. You can get more details
+-->
+
+---
+layout: full
+---
+
+# Resources
+
+https://xkcd.com/2347/
+
+---
+layout: end
+---
