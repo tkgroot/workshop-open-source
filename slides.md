@@ -66,15 +66,7 @@ Outline
 - The meaning of open-source
 - Open-source at your workplace
 - How the open-source software eco-system works
-  - Git
-  - Collaboration
-  - Access Control
-  - Pull Requests
-  - Forks
-  - Licensees
-  - Issues
-  - Workflow
-    - Common forking workflow
+- Common contribution workflow with Git
 
 ::right::
 
@@ -124,18 +116,18 @@ layout: full
 
 # What is open-source?
 
-- it's published on a public space
+- code is published on a public space
 - enabled cooperation
 - easily extendable and redistributable
 
 </div>
 <div class="w-1/2">
 
-# Common fallacy's
+# Common fallacies
 
 - no control over your work
-- open-source doesn't mean it's free
-- it's not unsafe to use open-source
+- open-source means free
+- open-source is unsafe
 
 </div>
 </div>
