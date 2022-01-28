@@ -1,14 +1,15 @@
 ---
-layout: full
+layout: image-right
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
 # How the open-source software eco-system works
 
 - Platforms for collaboration
   - [Github](https://github.com/)
-  - [Gitlab]()
-    - [public instance Tor project]()
-    - [different project]()
+  - [Gitlab](https://gitlab.com/gitlab-com), [about Gitlab](https://about.gitlab.com/)
+    - [public instance Tor project](https://gitlab.torproject.org/tpo)
+    - [public instance of Castopod](https://code.podlibre.org/podlibre/castopod-host)
   - [Gitea](https://gitea.com/)
   - [Codeberg e.V.](https://codeberg.org/)
   - Azure DevOps
