@@ -75,16 +75,10 @@ Outline
 - Open-source at your workplace
 - How the open-source software eco-system works
 - Common contribution workflow with Git
-
-::right::
-
-<div class="mt-21">
-
 - How does open-source contributions look?
 - But is it something for you?
 - The good, the bad, the ugly and the noteworthy
 
-</div>
 
 ---
 layout: intro
