@@ -51,9 +51,17 @@ layout: full
 
 Contributors
 
-- Frank Wijmans
-- Goffert van Gool
-- Tobias Kuppens Groot
+<div class="flex flex-row">
+<div class="w-1/3">
+<img class="w-50" src="images/frank.png" alt="">
+</div>
+<div class="w-1/3">
+<img class="w-50" src="images/goffert.png" alt="">
+</div>
+<div class="w-1/3">
+<img class="w-50" src="images/tobias.png" alt="">
+</div>
+</div>
 
 ---
 layout: image-right
