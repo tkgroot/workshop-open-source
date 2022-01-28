@@ -254,6 +254,7 @@ This is all very nice and really abstract, but how does it actually look?
 - [open-wc codelabs](https://github.com/open-wc/open-wc/pull/1344)
 - [typo fix](https://github.com/slidevjs/docs/pull/48)
 - [add DX feature](https://github.com/floodlight-sports/floodlight/pull/19)
+- [typo in Docker container names](https://github.com/moby/moby/commit/6cf137860102b8df5db75dd68924375a7b74c1c3)
 
 </v-click>
 
