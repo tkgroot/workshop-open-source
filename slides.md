@@ -247,35 +247,12 @@ src: slides/ruphin-slides-open-source-workshop/25-cover-deck-workflow.md
 ---
 src: slides/ruphin-slides-open-source-workshop/26.md
 ---
-
 ---
 src: slides/git-common-workflow.md
 ---
-
-
 ---
-layout: full
+src: slides/experience.md
 ---
-
-# Experience with open-source
-
-This is all very nice and really abstract, but how does it actually look?
-
-<v-click>
-
-- [todo mvc](https://github.com/tastejs/todomvc/issues/2100)
-- [gitea improvement](https://github.com/go-gitea/gitea/issues/13600)
-- [open-wc codelabs](https://github.com/open-wc/open-wc/pull/1344)
-- [typo fix](https://github.com/slidevjs/docs/pull/48)
-- [add DX feature](https://github.com/floodlight-sports/floodlight/pull/19)
-- [typo in Docker container names](https://github.com/moby/moby/commit/6cf137860102b8df5db75dd68924375a7b74c1c3)
-
-</v-click>
-
-<!--
-To get more inside in how open-source contributions can differ, we gathered a couple of examples.
--->
-
 ---
 src: slides/open-source-for-you.md
 ---
