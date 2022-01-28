@@ -361,7 +361,38 @@ layout: full
 
 # Resources
 
-https://xkcd.com/2347/
+- Title image: "Portland street public water fountain" by Dominick Guzzo is licensed under CC BY-NC-SA 2.0
+
+- https://xkcd.com/2347/ used
+- code review club: https://media.ccc.de/v/rc3-2021-cwtv-228-lets-review-code-toget#t=0
+- nlNet foundation: https://nlnet.nl/
+- EU OSPO Bug bounty program : https://ec.europa.eu/info/news/european-commissions-open-source-programme-office-starts-bug-bounties-2022-jan-19_en
+- EU OSSS: https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en
+- EU open source policy summit 2022: https://summit.openforumeurope.org/
+- FOSDEM 2022: https://fosdem.org/2022/
+- log4j problem: https://thenextweb.com/news/log4j-bug-internet-open-source-contributors-analysis
+- color.js and faker.js incident: https://fossbytes.com/developer-corrupts-faker-js-and-color-js/
+- github access trade-ban:
+  - https://www.linux.com/news/github-block-developers-countries-facing-us-trade-sanctions/
+  - https://www.zdnet.com/article/github-starts-blocking-developers-in-countries-facing-us-trade-sanctions/
+
+---
+layout: image
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
+---
+
+<h1 class="absolute top-24 right-40">Thank you!</h1>
+<h2 class="absolute top-48 right-40">Any Questions?</h2>
+
+<style>
+  .slidev-layout h1 {
+    color: aliceblue;
+    font-size: 3.5rem
+  }
+  .slidev-layout h2 {
+    font-size: 3rem;
+  }
+</style>
 
 ---
 layout: end
