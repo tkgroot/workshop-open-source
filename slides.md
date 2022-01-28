@@ -28,9 +28,9 @@ drawings:
   persist: false
 ---
 
-# Open-Source
+# Open Source Software Meetup
 
-What is it?
+What is open-source? How to contribute, and whether you should
 
 
 <div class="abs-br m-6 flex gap-2">
