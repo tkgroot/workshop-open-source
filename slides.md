@@ -81,10 +81,21 @@ Outline
 
 
 ---
-layout: intro
+layout: image
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
-# The meaning of open-source
+<div class="h-100 flex justify-center">
+<h1 class="my-auto">The meaning of open-source</h1>
+</div>
+
+<style>
+  .slidev-layout h1 {
+    color: white;
+    font-size: 3.75rem;
+    margin-bottom: auto !important;
+  }
+</style>
 
 ---
 layout: image-left
