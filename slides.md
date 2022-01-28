@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -45,7 +45,6 @@ What is it?
 
 ---
 layout: full
-image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Introduction
@@ -57,7 +56,8 @@ Contributors
 - Tobias Kuppens Groot
 
 ---
-layout: two-cols
+layout: image-right
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 # Introduction
 
@@ -86,7 +86,7 @@ layout: intro
 
 ---
 layout: image-left
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
 # What can be open-source?
@@ -133,7 +133,8 @@ layout: full
 </div>
 
 ---
-layout: full
+layout: image-right
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
 # Open-source at your workplace
@@ -288,7 +289,8 @@ We created a collection of noteworthy open-source
 -->
 
 ---
-layout: full
+layout: image-right
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
 # The good
@@ -307,7 +309,8 @@ learning and experience
 -->
 
 ---
-layout: full
+layout: image-right
+image: https://live.staticflickr.com/5034/5807467500_52abf6b158_n.jpg
 ---
 
 # The bad
