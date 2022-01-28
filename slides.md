@@ -275,7 +275,7 @@ The same holds true for the bad.
 
 And occasionally the ugly arises
 
-We created a collection of noteworthy open-source
+We created a collection of noteworthy open-source news
 -->
 
 ---
