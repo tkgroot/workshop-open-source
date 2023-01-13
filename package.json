@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "slidev build --base /workshop-open-source/",
+    "build": "slidev build --base /workshop-open-source/ && node ./scripts/copy.js",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -9,6 +9,7 @@
     "@slidev/cli": "0.28.2",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
+    "fs-extra": "^11.1.0",
     "playwright-chromium": "^1.18.0"
   },
   "name": "workshop-open-source"
